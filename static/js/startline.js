@@ -5,7 +5,10 @@
     .module('startline', [
       'startline.config',
       'startline.routes',
-      'startline.authentication'
+      'startline.authentication',
+      'startline.layout',
+      'startline.posts',
+      'startline.utils',
     ])
     .run(run);
 
