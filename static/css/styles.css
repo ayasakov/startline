@@ -42,7 +42,7 @@
 
 	.container_12 						{margin-left:auto; margin-right:auto; width:1020px;}
 	.float								{display:inline; float:left; position:relative;}
-    .float-center						{display:inline; float:center; position:relative;}
+    .float-center						{display:inline; text-align: center; position:relative;}
 	.grid_1,
 	.grid_2,
 	.grid_3,
@@ -55,6 +55,7 @@
 	.grid_10,
 	.grid_11,
 	.grid_12 							{display:inline; float:left; position:relative; margin-left:20px; margin-right:20px;}
+    .grid_13                            {display:inline; position: relative; text-align: center;}
 	.container_12 .grid_1				{width:45px;}
 	.container_12 .grid_2 				{width:130px;}
 	.container_12 .grid_3 				{width:215px;}
@@ -66,7 +67,7 @@
 	.container_12 .grid_9 				{width:725px;}
 	.container_12 .grid_10 				{width:810px;}
 	.container_12 .grid_11 				{width:895px;}
-	.container_12 .grid_12 				{width:980px;}
+	.container_12 .grid_12 				{width:980px; text-align: center;}
 	
 /* Global Classes */
 
@@ -119,18 +120,18 @@
 /* Caption */
 
 	h2.caption 							{color:#494949; text-shadow:1px 1px 1px #cfcfcf; font-size:23px; line-height:30px;font-weight:normal; }
-	h2.caption span						{color:#000000; font-weight:bold;}
+	h2.caption span						{color:#1692c8; font-weight:bold;}
 	h2.caption a:hover					{text-decoration : underline;}
 
 /* Homepage QuickNavigation */
 
 	#quicknav							{background:url(/static/images/link_border.png) repeat-x;}
 	a .title 							{color:#000000;}
-	.quicknavgrid_3						{width:204px; margin:0px; padding:20px 20px 0; display:inline; float:left; position:relative; margin-left:1px;}
+	.quicknavgrid_3						{width:244px; margin:0px; padding:20px 20px 0; display:inline; float:left; position:relative; margin-left:1px;}
 	.quicknav							{background:#FFFFFF;}
 	.quicknav:hover						{background:url(/static/images/link_bg.png) repeat-x;}
 	.quicknavhr							{margin-bottom:0;}
-	.quicknav.alpha						{margin-left:0; width:205px;}
+	.quicknav.alpha						{margin-left:0; width:245px;}
 
 /* About Us Page Timeline */
 

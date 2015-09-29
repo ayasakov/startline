@@ -12,7 +12,6 @@
   * @desc Define valid application routes
   */
   function config($routeProvider) {
-    debugger;
     $routeProvider.when('/register', {
       controller: 'RegisterController', 
       controllerAs: 'vm',
