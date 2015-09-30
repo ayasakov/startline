@@ -86,7 +86,7 @@
       */
       function loginSuccessFn(data, status, headers, config) {
         Authentication.setAuthenticatedAccount(data.data);
-        window.location = '/';
+        window.location = '/posts';
       }
 
       /**
@@ -122,7 +122,7 @@
       * @desc Log "Epic failure!" to the console
       */
       function logoutErrorFn(data, status, headers, config) {
-        console.error('Epic failure!');
+        console.error('Epic failure!' + JSON.stringify(data));
       }
     }
 

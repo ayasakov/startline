@@ -10,12 +10,39 @@
 </head>
 
 <body>
-  {% include 'navbar.html' %}
+  <div id="wrapper" class="container_12 clearfix">
+    <!-- Text Logo -->
+    <img src="/static/images/logo2.png" class="logo" alt="" />
 
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-xs-12 ng-view"></div>
+    <!-- Navigation Menu -->
+    <ul id="navigation" class="grid_8">
+        <li><a href="/contact"  class="menu"><span class="meta">Свяжись с нами</span><br />Связь</a></li>
+        <li><a href="/posts" class="menu"><span class="meta">Последние новости</span><br />Новости</a></li>
+        <li><a href="/portfolio" class="menu"><span class="meta">Последние работы</span><br />Портфолио</a></li>
+        <li><a href="/about" class="menu"><span class="meta">Выбери для себя</span><br />Услуги</a></li>
+        <li><a href="/home" class="menu"><span class="meta">Домашняя страница</span><br />Главная</a></li>
+    </ul>
+
+    <div class="hr grid_12">&nbsp;</div>
+    <div class="clear"></div>
+
+
+    <!-- Container -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 ng-view"></div>
+      </div>
     </div>
+
+    <!-- End container -->
+
+    <div class="hr grid_12 clearfix">&nbsp;</div>
+    <!-- Footer -->
+    <p class="grid_12 footer clearfix">
+        <span class="float-center"><b>&copy; Copyright</b> <a href="">Startline IT</a> - 2015.</span>
+    </p>
+
   </div>
 
   {% include 'js.html' %}

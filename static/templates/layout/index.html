@@ -4,3 +4,4 @@
   ng-show="vm.isAuthenticated"
   ng-dialog="/static/templates/posts/new-post.html"
   ng-dialog-controller="NewPostController as vm"></a>
+<a class="btn btn-primary btn-fab btn-raised mdi-action-open-in-browser btn-logout" ng-show="vm.isAuthenticated" href="/logout" ng-controller="NavbarController as vm" ng-click="vm.logout()"></a>

@@ -20,12 +20,20 @@
       controller: 'LoginController',
       controllerAs: 'vm',
       templateUrl: '/static/templates/authentication/login.html'
-    }).when('/', {
+    }).when('/posts', {
       controller: 'IndexController',
       controllerAs: 'vm',
       templateUrl: '/static/templates/layout/index.html'
     }).when('/home', {
         templateUrl: '/static/templates/home/index.html'
-    }).otherwise('/');
+    }).when('/about', {
+        templateUrl: '/static/templates/home/about.html'
+    }).when('/portfolio', {
+        templateUrl: '/static/templates/home/portfolio.html'
+    }).when('/contact', {
+        templateUrl: '/static/templates/home/contact.html'
+    }).when('/portfolio_single', {
+        templateUrl: '/static/templates/home/portfolio_single.html'
+    }).otherwise('/home');
   }
 })();

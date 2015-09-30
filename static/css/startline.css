@@ -20,10 +20,29 @@
   right: 20px;
 }
 
+.btn-logout {
+  position: fixed;
+  bottom: 20px;
+  right: 85px;
+}
+
 .logo {
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   float: left;
   margin-left: 50px;
   margin-right: -30px;
   pointer-events: none;
+  margin-top: 25px;
+}
+
+.container-fluid {
+    padding-left: 0px;
+}
+
+.btn-primary:not(.btn-link):not(.btn-flat) {
+  background-color: #1692c8;
+}
+
+.btn-primary:not(.btn-link):not(.btn-flat).btn-logout {
+  background-color: #E23237;
 }

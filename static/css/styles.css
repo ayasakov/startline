@@ -1,7 +1,7 @@
 /* Global Styles */
 
 	body								{background:url(/static/images/bg.png) repeat-x #FFFFFF; font-size:12px;	font-family:'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Arial, san-serif; color:#000000;}
-	a:focus								{outline:1px dotted;}
+	a:focus								{outline:none;}
 	a									{color:#717171; text-decoration:none;}
 	a:hover								{text-decoration:none;}
 	a span								{font-size:90%;}
@@ -100,7 +100,7 @@
 	ul#navigation li 					{float:right; display:inline; margin : 0 0 0 30px;}
 	ul#navigation li a					{font-family:arial, sans-serif !important; display:block; padding:44px 0 0; text-decoration:none; color:#1692c8; font-size:14px; font-weight:bold;}
 	ul#navigation li a:hover,
-	ul#navigation li a.current			{background:url(/static/images/triangle.gif) no-repeat center top;}
+	ul#navigation li a.current			{background:url(/static/images/triangle.png) no-repeat center top;}
 
 /* Footer */
 

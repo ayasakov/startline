@@ -1,3 +1,18 @@
+<div class="post">
+    <!-- Post Title -->
+    <h3 class="title"><a href="single.html">Loreum ipsium massa cras phasellus</a></h3>
+    <!-- Post Data -->
+    <p class="sub"><a href="#">News</a>, <a href="#">Products</a> &bull; {{ post.created_at }} &bull; <a href="#">1 Comment</a></p>
+    <div class="hr dotted clearfix">&nbsp;</div>
+    <!-- Post Image -->
+    <img class="thumb" alt="" src="/static/images/610x150.gif" />
+    <!-- Post Content -->
+    <div class="post__content">
+      {{ post.content }}
+    </div>
+</div>
+<div class="hr clearfix">&nbsp;</div>
+
 <div class="row">
   <div class="col-sm-12">
     <div class="well">
@@ -8,9 +23,7 @@
           </a>
         </div>
 
-        <div class="post__content">
-          {{ post.content }}
-        </div>
+
       </div>
     </div>
   </div>
