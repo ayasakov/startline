@@ -86,8 +86,8 @@
 
 /* Buttons */
 
-	.button, .button:visited 			{background:#000000 url(/static/images/alert-overlay.png) repeat-x; display:inline-block; padding:5px 10px 6px; color:#fff; text-decoration:none; -moz-border-radius:5px; -webkit-border-radius:5px; -moz-box-shadow:0 1px 3px rgba(0,0,0,0.5); -webkit-box-shadow:0 1px 3px rgba(0,0,0,0.5); text-shadow:0 -1px 1px rgba(0,0,0,0.25); border-bottom:1px solid rgba(0,0,0,0.25); position:relative; cursor:pointer; font-size:13px; font-weight:bold; line-height:1; border:0;}
- 	.button:hover						{background-color:#111; color:#fff; text-decoration:none;}
+	.button, .button:visited 			{background:#1692c8 url(/static/images/alert-overlay.png) repeat-x; display:inline-block; padding:5px 10px 6px; color:#fff; text-decoration:none; -moz-border-radius:5px; -webkit-border-radius:5px; -moz-box-shadow:0 1px 3px rgba(0,0,0,0.5); -webkit-box-shadow:0 1px 3px rgba(0,0,0,0.5); text-shadow:0 -1px 1px rgba(0,0,0,0.25); border-bottom:1px solid rgba(0,0,0,0.25); position:relative; cursor:pointer; font-size:13px; font-weight:bold; line-height:1; border:0; outline: none;}
+ 	.button:hover						{background-color:#04466f; color:#fff; text-decoration:none; outline:none;}
 	.button:active						{top:1px;}
 	
 /* Site Logo */
@@ -178,7 +178,7 @@
 	.post .title						{color:#393939; font-size:30px;}
 	.post .title a						{color:#393939; text-decoration:none;}
 	.post a.button:hover				{text-decoration:none;}
-	.post .sub							{font-size:12px; color:#9d9d9d;}
+	.post .sub							{font-size:12px; color:#04466f;}
 	.post .thumb						{width:619px; height:150px; padding:5px; border: 1px solid #cccccc; -moz-border-radius:5px; -webkit-border-radius:5px;}
 
 /* Comment's List */

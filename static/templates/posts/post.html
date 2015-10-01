@@ -1,8 +1,8 @@
 <div class="post">
     <!-- Post Title -->
-    <h3 class="title"><a href="single.html">Loreum ipsium massa cras phasellus</a></h3>
+    <h3 class="title"><a href="single.html">{{ post.subject }}</a></h3>
     <!-- Post Data -->
-    <p class="sub"><a href="#">News</a>, <a href="#">Products</a> &bull; {{ post.created_at }} &bull; <a href="#">1 Comment</a></p>
+    <p class="sub">{{ post.author.username }} &bull; {{ post.created_at }} &bull; </p>
     <div class="hr dotted clearfix">&nbsp;</div>
     <!-- Post Image -->
     <img class="thumb" alt="" src="/static/images/610x150.gif" />
@@ -10,21 +10,6 @@
     <div class="post__content">
       {{ post.content }}
     </div>
+    <p class="clearfix"><a href="#" class="button right"> Читать далее...</a></p>
 </div>
 <div class="hr clearfix">&nbsp;</div>
-
-<div class="row">
-  <div class="col-sm-12">
-    <div class="well">
-      <div class="post">
-        <div class="post__meta">
-          <a href="/{{ post.author.username }}">
-            {{ post.author.username }}
-          </a>
-        </div>
-
-
-      </div>
-    </div>
-  </div>
-</div>

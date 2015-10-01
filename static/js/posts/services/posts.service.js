@@ -44,8 +44,9 @@
     * @returns {Promise}
     * @memberOf startline.posts.services.Posts
     */
-    function create(content) {
+    function create(content, subject) {
       return $http.post('/api/v1/posts/', {
+        subject: subject,
         content: content
       });
     }

@@ -26,6 +26,7 @@
     */
     function submit() {
       $rootScope.$broadcast('post.created', {
+        subject: vm.subject,
         content: vm.content,
         author: {
           username: Authentication.getAuthenticatedAccount().username
@@ -34,7 +35,7 @@
 
       $scope.closeThisDialog();
 
-      Posts.create(vm.content).then(createPostSuccessFn, createPostErrorFn);
+      Posts.create(vm.content, vm.subject).then(createPostSuccessFn, createPostErrorFn);
 
 
       /**

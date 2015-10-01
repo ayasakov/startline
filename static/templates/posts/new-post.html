@@ -1,5 +1,7 @@
 <form role="form" ng-submit="vm.submit()">
   <div class="form-group">
+    <label for="login__email">Subject</label>
+    <input type="text" class="form-control" id="post__subject" ng-model="vm.subject" placeholder="ex. My Subject" />
     <label for="post__content">New Post</label>
     <textarea class="form-control" 
               id="post__content" 

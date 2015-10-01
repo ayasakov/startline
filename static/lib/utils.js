@@ -11,3 +11,11 @@ $(document).on("click", function() {
         }
     });
 });
+
+function formatDate(d) {
+    debugger;
+    var date = new Date(d);
+    var m = ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль',
+        'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь']
+    return date.getDate() + ' ' + m[date.getMonth()] + ', ' + date.getYear();
+}

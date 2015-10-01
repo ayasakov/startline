@@ -6,20 +6,39 @@
     <!-- Column 1 /Content -->
     <div class="grid_8">
         <div class="row" ng-cloak>
-          <div ng-repeat="column in vm.columns">
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-              <div ng-repeat="post in column">
-                <post post="post"></post>
+              <div ng-repeat="column in vm.columns">
+                <div class="col-xs-12">
+                  <div ng-repeat="post in column">
+                    <post post="post"></post>
+                  </div>
+                </div>
+              </div>
+
+              <div ng-hide="vm.columns && vm.columns.length">
+                <div class="col-sm-12 no-posts-here">
+                  <em>The are no posts here.</em>
+                </div>
               </div>
             </div>
-          </div>
+    </div>
 
-          <div ng-hide="vm.columns && vm.columns.length">
-            <div class="col-sm-12 no-posts-here">
-              <em>The are no posts here.</em>
-            </div>
-          </div>
-        </div>
+    <!-- Column 2 / Sidebar -->
+    <div class="grid_4">
+
+        <h4>Категории</h4>
+        <ul class="sidebar">
+            <li><a href="">Кто мы?</a></li>
+            <li><a href="">Философия</a></li>
+            <li><a href="">История</a></li>
+            <li><a href="">Работы</a></li>
+            <li><a href="">Сотрудники</a></li>
+            <li><a href="">Клиенты</a></li>
+        </ul>
+
+        <h4>Архив</h4>
+        <ul class="sidebar">
+            <li><a href="">Сентябрь 2015</a></li>
+        </ul>
     </div>
 
 
