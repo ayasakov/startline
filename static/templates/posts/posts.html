@@ -6,20 +6,25 @@
     <!-- Column 1 /Content -->
     <div class="grid_8">
         <div class="row" ng-cloak>
-              <div ng-repeat="column in vm.columns">
-                <div class="col-xs-12">
-                  <div ng-repeat="post in column">
-                    <post post="post"></post>
-                  </div>
-                </div>
-              </div>
-
-              <div ng-hide="vm.columns && vm.columns.length">
-                <div class="col-sm-12 no-posts-here">
-                  <em>The are no posts here.</em>
-                </div>
+          <div ng-repeat="column in vm.columns">
+            <div class="col-xs-12">
+              <div ng-repeat="post in column">
+                <post post="post"></post>
               </div>
             </div>
+          </div>
+
+          <div ng-hide="vm.columns && vm.columns.length">
+            <div class="col-sm-12 no-posts-here">
+              <em>The are no posts here.</em>
+            </div>
+          </div>
+        </div>
+        <!-- Blog Navigation -->    
+        <p class="clearfix">
+            <a href="#" class="button float">&lt;&lt; Предыдущие</a>
+            <a href="#" class="button float right">Следующие >></a>
+        </p>
     </div>
 
     <!-- Column 2 / Sidebar -->
