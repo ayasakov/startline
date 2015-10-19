@@ -46,3 +46,11 @@
 .btn-primary:not(.btn-link):not(.btn-flat).btn-logout {
   background-color: #E23237;
 }
+
+.ta-editor {
+  min-height: 300px;
+  height: auto;
+  overflow: auto;
+  font-family: inherit;
+  font-size: 100%;
+}

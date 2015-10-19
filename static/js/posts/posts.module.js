@@ -5,7 +5,9 @@
     .module('startline.posts', [
       'startline.posts.controllers',
       'startline.posts.directives',
-      'startline.posts.services'
+      'startline.posts.services',
+      'ngSanitize',
+      'textAngular',
     ]);
 
   angular
